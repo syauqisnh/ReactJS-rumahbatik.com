@@ -1,0 +1,80 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+  box-sizing: border-box;
+}
+
+.button {
+  font-weight: 500;
+  padding: 0.6rem 1.4rem;
+  background-color: rgb(137, 57, 1);
+  border-radius: 20px;
+  border: none;
+  transition: all 300ms ease-in;
+}
+
+.button a {
+  color: white;
+}
+
+.button:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+}
+
+.button-transparant {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.6rem 1.4rem;
+  font-weight: 500;
+  border: 2px solid rgb(137, 57, 1);
+  border-radius: 30px;
+  background-color: transparent;
+  transition: all 300ms ease-in;
+  color: rgb(137, 57, 1);
+  font-weight: bold;
+}
+
+.button-transparant:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+}
+
+.chocoText {
+  color: rgb(137, 57, 1);
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.primaryText {
+  color: grey;
+  font-weight: bold;
+  font-size: 1rem;
+}
+.b-card img {
+  border-radius: 20px;
+  width: 100%;
+  height: 100%; /* Menyesuaikan tinggi gambar menjadi 100% dari lebar */
+  max-width: 15rem;
+  aspect-ratio: 1 / 1; /* Memaksa gambar menjadi persegi */
+  object-fit: cover; /* Menyesuaikan gambar ke dalam kotak gambar */
+}
+.b-card {
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+  padding: 2rem;
+  border-radius: 20px; /* Sesuaikan dengan radius gambar */
+  width: 15rem; /* Lebar kartu tetap */
+  max-width: 100%; /* Pastikan lebar kartu tidak melebihi parent */
+  margin: auto;
+  overflow: hidden; /* Memastikan gambar tidak terlalu besar */
+  transition: all 300ms ease-in;
+}
+
+.b-card:hover {
+  transform: scale(1.025); 
+  cursor: pointer;
+}

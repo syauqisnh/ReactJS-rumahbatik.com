@@ -1,0 +1,52 @@
+.hero-wrapper {
+    position: relative;
+    color: rgb(137, 57, 1);
+    padding-bottom: 2rem;
+    background-color: bisque;
+}
+.hero-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 3rem;
+    padding-left: 3rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+.img-container {
+    width: 30rem;
+    height: 30rem;
+}
+.hero-title {
+    position: relative;
+    padding-bottom: 1rem;
+    font-size: 1.5rem;
+}
+.location {
+    padding-bottom: 3rem;
+}
+
+.icons {
+    font-size: 20px;
+    margin-top: 5px;
+    margin-left: 5px;
+}
+
+.hero-des p {
+    text-align: justify;
+    padding-bottom: 1rem;
+}
+.stats {
+    display: flex;
+}
+.stat {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    width: 50%;
+    font-weight: bold;
+}
+
+.icon {
+    font-size: 30px;
+}

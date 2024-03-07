@@ -1,0 +1,38 @@
+[
+    {
+        "name": "Batik Tujuh Rupa",
+        "price": "Rp.100.000",
+        "detail": "Motif batik tujuh rupa dari Pekalongan.",
+        "images": "./b1.jpg"
+    },
+    {
+        "name": "Batik Mega Mendung",
+        "price": "Rp.100.000",
+        "detail": "Motif batik Mega Mendung dari Cirebon.",
+        "images": "./b2.jpeg"
+    },
+    {
+        "name": "Batik Kraton",
+        "price": "Rp.100.000",
+        "detail": "Motif batik Keraton berasal dari kebudayaan jawa",
+        "images": "./b3.jpg"
+    },
+    {
+        "name": "Batik Basurek",
+        "price": "Rp.100.000",
+        "detail": "Batik Besurek adalah batik khas Bengkulu",
+        "images": "./b4.jpg"
+    },
+    {
+        "name": "Batik Kawung",
+        "price": "Rp.100.000",
+        "detail": "Batik Kawung adalah batik khas Pulau Jawa",
+        "images": "./b5.jpg"
+    },
+    {
+        "name": "Batik Parang",
+        "price": "Rp.100.000",
+        "detail": "Batik Parang adalah batik khas Pulau Jawa",
+        "images": "./b6.jpg"
+    }
+]

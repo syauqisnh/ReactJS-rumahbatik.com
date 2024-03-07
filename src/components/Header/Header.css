@@ -1,0 +1,29 @@
+.h-wrapper {
+    background-color: bisque;
+}
+.h-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 3rem;
+    padding-left: 3rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+.logo {
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(137, 57, 1);
+}
+.h-menu {
+    gap: 2rem;
+    display: flex;
+    align-items: center;
+}
+.h-menu a {
+    font-weight: bold;
+    text-decoration: none;
+    color: rgb(96, 95, 95);
+}

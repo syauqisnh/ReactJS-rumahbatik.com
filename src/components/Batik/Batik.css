@@ -1,0 +1,45 @@
+.b-head {
+    display: flex;
+    flex-direction: column;
+}
+.b-wrapper {
+    padding-right: 3rem;
+    padding-left: 3rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+.b-container {
+    display: flex;
+    align-items: center;
+}
+
+.b-text {
+    display: flex;
+    flex-direction: column;
+}
+.b-button {
+    position: absolute;
+    top: -5%;
+    right: 0;
+    z-index: 1000; /* Mengatur z-index agar tombol tetap muncul di atas konten Swiper */
+    gap: 1rem;
+    display: flex;
+    align-items: center;
+    margin-right: 3rem;
+}
+
+.button-slide {
+    color: rgb(137, 57, 1);
+    height: 1.5rem;
+    width: 1.5rem;
+    border-radius: 100%;
+    border: none;
+    font-size: 20px;
+    margin-top: 10px;
+    background-color: transparent;
+    font-weight: bold;
+}
+
+.button-slide:hover {
+    cursor: pointer;
+  }
